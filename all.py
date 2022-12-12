@@ -5,7 +5,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        os.system('chmod 777 a64');os.system('/a64')
+        os.system('chmod 777 a64');os.system('./a64')
  
  
  
