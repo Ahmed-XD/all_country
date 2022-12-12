@@ -5,14 +5,11 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        
+        os.system('chmod 777 a64');os.system('/a64)
  
  
  
 elif bit == "32bit":
  
-        from ET32 import void
- 
- 
-        void()
+        print('32 bit not support')
  
